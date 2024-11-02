@@ -1,43 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>ArcticMoon101</title>
+        <title>Arctic's Art</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="./theme.css">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <!-- Theme -->
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
         <div class="container-fluid">
+            <!-- Title -->
             <div class="row justify-content-center">
-                <img class="col-6" src="#" alt="banner">
+               <div class="col-lg-8 col-md-10 card">
+                   <div class="card-body">
+                       <h1>Arctic's Art</h1>
+                   </div>
+               </div>
             </div>
+            <br>
+
+            <!-- Art Samples -->
             <div class="row justify-content-center">
-                <div class="col card panel bg-light">
+                <div class="col-lg-8 col-md-10 card">
                     <div class="card-body">
                         <div class="row">
-                            <h3 class="col">My Art</h3>
+                            <h3 class="col">My Art</h2>
                         </div>
                         <div class="row">
-                            <img class="col-6" src="#" alt="art-1">
-                            <img class="col-6" src="#" alt="art-2">
+                            <hr class="col">
                         </div>
-                        <div class="row">
-                            <img class="col-6" src="#" alt="art-3">
-                            <img class="col-6" src="#" alt="art-4">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6 carousel slide" id="artSamples" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#artSamples" data-bs-slide-to="0" class="active"></button>
+                                    <button type="button" data-bs-target="#artSamples" data-bs-slide-to="1"></button>
+                                    <button type="button" data-bs-target="#artSamples" data-bs-slide-to="2"></button>
+                                    <button type="button" data-bs-target="#artSamples" data-bs-slide-to="3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="https://i.imgur.com/I7I4xcW.jpeg">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://i.imgur.com/54JJdlK.jpeg">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://i.imgur.com/dgvXZKG.jpeg">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://i.imgur.com/1HidJSH.jpeg">
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#artSamples" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#artSamples" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <br>
+
+            <!-- Contacts -->
             <div class="row justify-content-center">
-                <div class="col card panel bg-light">
+                <div class="col-lg-8 col-md-10 card">
                     <div class="card-body">
-                        <h3>My Bio</h3>
-                        <div class="card-text">
-                            Bio Here
+                        <div class="row">
+                            <h3 class="col">Contacts</h2>
+                        </div>
+                        <div class="row">
+                            <hr class="col">
+                        </div>
+                        <div class="row">
+                            <b class="col-lg-2 col-md-2">TikTok:</b>
+                            <a class="col" href="https://www.tiktok.com/@arcticmoon200?_t=8r2tBWMdTos&_r=1">arcticmoon200</a>
+                        </div>
+                        <div class="row">
+                            <b class="col-lg-2 col-md-2">YouTube:</b>
+                            <a class="col" href="https://youtube.com/@arcticsart200?si=9AGMVIdhyRdGkPXT">@ArcticsArt200</a>
+                        </div>
+                        <div class="row">
+                            <b class="col-lg-2 col-md-2">Instagram:</b>
+                            <a class="col" href="https://www.instagram.com/arcticsartspace/profilecard/?igsh=NjJvbXc1MjQ2dGtm">@ArcticsArtSpace</a>
+                        </div>
+                        <div class="row">
+                            <b class="col-lg-2 col-md-2">Contact:</b>
+                            <div class="col">arcticmoon101 on discord or Arcticmoon101 on telegram. I am also able to be messaged on the socials where it applies.</div>
                         </div>
                     </div>
                 </div>
             </div>
+            <br>
         </div>
     </body>
 </html>
